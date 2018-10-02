@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.0.2 (Jython 2.7.0 on java1.8.0_181)" generated="20181002 16:05:09.238">
+<suite source="/home/laci/Documents/01-Robot-Framework/RobotFramework-Basic/src/test/robotframework/acceptance" name="Acceptance" id="s1">
+<suite source="/home/laci/Documents/01-Robot-Framework/RobotFramework-Basic/src/test/robotframework/acceptance/Test_Case_1.txt" name="Test Case 1" id="s1-s1">
+<test name="Check out github dot com" id="s1-s1-t1">
+<kw library="Selenium2Library" name="Open Browser">
+<doc>Opens a new browser instance to given URL.&lt;br&gt;</doc>
+<arguments>
+<arg>https://www.github.com</arg>
+<arg>gc</arg>
+</arguments>
+<msg level="INFO" timestamp="20181002 16:05:11.734">browserName: gc</msg>
+<msg level="INFO" timestamp="20181002 16:05:11.738">Opening browser 'gc' to base url 'https://www.github.com'</msg>
+<msg level="INFO" timestamp="20181002 16:05:21.450">Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 26493
+Only local connections are allowed.</msg>
+<status endtime="20181002 16:05:21.455" starttime="20181002 16:05:11.712" status="PASS"></status>
+</kw>
+<kw library="Selenium2Library" name="Close Browser">
+<doc>Closes the current browser instance.&lt;br&gt;&lt;br&gt;&lt;b&gt;See Also:&lt;/b&gt;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Close All Browsers`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Open Browser`&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;`Switch Browser`&lt;br&gt;</doc>
+<status endtime="20181002 16:05:22.046" starttime="20181002 16:05:21.463" status="PASS"></status>
+</kw>
+<status critical="yes" endtime="20181002 16:05:22.055" starttime="20181002 16:05:11.699" status="PASS"></status>
+</test>
+<doc>A resource file containing the application specific keywords</doc>
+<status endtime="20181002 16:05:22.070" starttime="20181002 16:05:10.237" status="PASS"></status>
+</suite>
+<status endtime="20181002 16:05:22.096" starttime="20181002 16:05:09.262" status="PASS"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0">Critical Tests</stat>
+<stat pass="1" fail="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" name="Acceptance" id="s1">Acceptance</stat>
+<stat pass="1" fail="0" name="Test Case 1" id="s1-s1">Acceptance.Test Case 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
